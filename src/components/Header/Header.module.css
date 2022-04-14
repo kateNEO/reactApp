@@ -1,0 +1,10 @@
+.logo {
+    height: 80px;
+    width: 80px;
+    pointer-events: none;
+}
+.headerBlock {
+    grid-area: header;
+    width: 100%;
+    background-color: #fdd7d8;
+}
