@@ -16,7 +16,7 @@ let Profile = () => {
                 </div>
             </div>
             <div className={profileStyle.classInput}>
-                <h3>My posts</h3>
+                <div className={profileStyle.post}>My posts</div>
                 <form className={profileStyle.formBlock}>
                     <input className={profileStyle.inputPost} type="text"/> <br/>
                     <input className={profileStyle.submitPost} type="submit" value="send"/>

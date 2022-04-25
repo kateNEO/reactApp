@@ -4,10 +4,17 @@
     height: 100%;
     margin-top: 10px;
     background-color: #fdd7d8;
-    color: white;
     font-size: 26px;
 }
-.item {
+.item
+{
     margin-left: 10px;
     margin-top: 5px;
+    color: white;
+    text-decoration: none;
 }
+.active {
+    color: rgba(178,107,176,0.75);
+    text-decoration: none;
+}
+

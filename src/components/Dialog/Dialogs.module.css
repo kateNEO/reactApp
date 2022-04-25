@@ -1,0 +1,59 @@
+.dialogs{
+    display: flex;
+}
+.dialogsItems{
+    font-size: 24px;
+    width: 30%;
+    height: 100%;
+}
+.item{
+    display: flex;
+    margin-bottom: 20px;
+}
+.dialogAvatar{
+    font-size: 14px;
+    padding: 12px;
+    border: 1px solid #ccb7c0;
+    border-radius: 180px;
+    margin-right: 30px;
+    color:#ccb7c0;
+}
+.name{
+    margin: auto auto auto 30px;
+    color: #ccb7c0;
+    text-decoration: none;
+}
+ .chat{
+     padding-left: 10px;
+     font-size: 20px;
+     width: 70%;
+     margin-left: 10px;
+     border-left: 1px solid #ccb7c0;
+ }
+ .message{
+     display: flex;
+     height: 42px;
+     width: 100%;
+     color: gray;
+     margin-bottom: 50px;
+ }
+
+.text {
+    margin: auto auto auto 0;
+}
+
+
+.incoming {
+    position: fixed;
+    left: 0;
+}
+
+.outgoing {
+    position: absolute;
+    right: 0;
+    color: yellow;
+}
+
+.active {
+    color: rgba(178, 107, 176, 0.75);
+}

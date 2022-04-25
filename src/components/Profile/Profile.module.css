@@ -13,12 +13,18 @@
     margin-left: 10px;
     font-family:  Garamond  ;
     font-size: 18px;
+    color: gray;
 }
 .profileContent{
     display: flex;
 }
 .formBlock{
     width: 1000px;
+}
+.post{
+    margin: 10px;
+    font-size: 26px;
+    color: gray;
 }
 .inputPost{
     background-color: #efe7e8;
@@ -38,6 +44,8 @@
     margin-top: 10px;
     padding: 0;
     margin-left: 820px;
+    color: gray;
+    font-size: 16px;
 }
 .classInput{
     width: 1000px;

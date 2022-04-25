@@ -1,21 +1,22 @@
 import navStyle from "./Nav.module.css"
+import {NavLink} from "react-router-dom"
 let Nav = () => {
     return (
         <nav className={navStyle.blockNav}>
             <div className={navStyle.item}>
-                <a href="/profile">Profile</a>
+                <NavLink to="/profile" className={({ isActive }) => isActive ? `${navStyle.active}` : `${navStyle.item}`} >Profile</NavLink>
             </div>
             <div className={navStyle.item}>
-                <a href="/dialoge">Messages</a>
+                <NavLink to="/dialogs" className={({ isActive }) => isActive ? `${navStyle.active}` : `${navStyle.item}`}>Message</NavLink>
             </div>
             <div className={navStyle.item}>
-                <a href="/nevs">News</a>
+                <NavLink to="/news" className={({ isActive }) => isActive ? `${navStyle.active}` : `${navStyle.item}`}>News</NavLink>
             </div>
             <div className={navStyle.item}>
-                <a href="/music">Music</a>
+                <NavLink to="/music" className={({ isActive }) => isActive ? `${navStyle.active}` : `${navStyle.item}`}>Music</NavLink>
             </div>
             <div className={navStyle.item}>
-                <a href="/settings">Settings</a>
+                <NavLink to="/settings" className={({ isActive }) => isActive ? `${navStyle.active}` : `${navStyle.item}`}>Settings</NavLink>
             </div>
         </nav>
     )
