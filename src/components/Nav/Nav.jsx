@@ -7,7 +7,7 @@ let Nav = () => {
                 <NavLink to="/profile" className={({ isActive }) => isActive ? `${navStyle.active}` : `${navStyle.item}`} >Profile</NavLink>
             </div>
             <div className={navStyle.item}>
-                <NavLink to="/dialogs" className={({ isActive }) => isActive ? `${navStyle.active}` : `${navStyle.item}`}>Message</NavLink>
+                <NavLink to="/dialogs/" className={({ isActive }) => isActive ? `${navStyle.active}` : `${navStyle.item}`}>Message</NavLink>
             </div>
             <div className={navStyle.item}>
                 <NavLink to="/news" className={({ isActive }) => isActive ? `${navStyle.active}` : `${navStyle.item}`}>News</NavLink>

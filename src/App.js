@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header/Header";
 import Nav from "./components/Nav/Nav";
@@ -21,7 +20,7 @@ function App(props) {
                   <Routes>
                       <Route path='/' element={<Profile/>}/>
                       <Route path='/profile' element={<Profile/>}/>
-                      <Route path='/dialogs' element={<Dialogs/>}/>
+                      <Route path='/dialogs/*' element={<Dialogs/>}/>
                       <Route path='/news' element={<News/>}/>
                       <Route path='/music' element={<Music/>}/>
                       <Route path='/settings' element={<Settings/>}/>

@@ -1,0 +1,46 @@
+.classInput{
+    width: 1000px;
+}
+.postH{
+    margin: 10px;
+    font-size: 26px;
+    color: gray;
+}
+.formBlock{
+    width: 1000px;
+}
+
+.inputPost{
+    background-color: #efe7e8;
+    width: 90%;
+    border: 1px solid  gainsboro;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+
+}
+.submitPost{
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+    border: 0;
+    background-color: #fdd7d8;
+    margin-top: 10px;
+    padding: 0;
+    margin-left: 820px;
+    color: white;
+    font-size: 18px;
+}
+.postBlock{
+    display: flex;
+    margin-bottom: 10px;
+}
+.posts{
+
+}
+
+.post{
+    margin: auto auto auto 10px;
+    color: gray;
+
+}

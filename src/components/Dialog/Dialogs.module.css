@@ -56,4 +56,5 @@
 
 .active {
     color: rgba(178, 107, 176, 0.75);
+    text-decoration: none;
 }
